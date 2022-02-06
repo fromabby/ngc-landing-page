@@ -1,16 +1,30 @@
-.description {
-    background-color: #060809;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+:root {
+    --bg-color: #060809;
+    --font-sans: 'Open Sans', sans-serif;
+    --black: #34435E;
+    --white: #ffffff;
+}
+
+.home {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.landing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: calc(10px + 2vmin);
     color: white;
     padding: 50px;
 }
 
-.brandName {
+.brand-name {
     font-family: Retroica;
     font-style: normal;
     font-weight: normal;
@@ -28,8 +42,8 @@
 }
 
 .socials {
-    color: "white";
-    margin: 25px;
+    color: white;
+    margin: 2px 25px 25px 25px;
     text-align: center;
 }
 
@@ -39,5 +53,282 @@
 }
 
 .socials a:visited {
-    color: "white"
+    color: white
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: between;
+}
+
+
+/* .hello .join-button {
+    margin-left: 50px;
+    padding: 2px 8px;
+    border-radius: 50px;
+    width: 230px;
+    min-width: 200px;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #c4c4c4;
+} */
+
+#join-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 180px;
+    position: relative;
+    left: calc(50% - 75px);
+    top: calc(50% - 25px);
+    background: linear-gradient(60deg, #f79533, #f79533, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    cursor: pointer;
+    line-height: 12px;
+}
+
+#join-button:before {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 70%;
+    top: 15%;
+    left: 10%;
+    transition: 0.3s opacity ease-in-out;
+    filter: blur(15px);
+    opacity: 0;
+    background: linear-gradient(60deg, #f79533, #f79533, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+#join-button:hover:before {
+    opacity: 1;
+    transition: 0.3s opacity ease-in-out;
+    filter: blur(25px);
+    background: linear-gradient(60deg, #f79533, #f79533, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+#join-button:after {
+    content: 'Join us!';
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: rgba(235, 235, 235, 1);
+    font-weight: bold;
+    z-index: 5;
+    position: absolute;
+    display: block;
+    border-radius: 180px;
+    width: 92%;
+    height: 80%;
+    top: 10%;
+    left: 4%;
+    background-color: rgb(19, 20, 22);
+}
+
+.idea-section {
+    background-color: var(--bg-color);
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.idea-section .idea {
+    font-size: 15px;
+    line-height: 1.5em;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.roadmap main {
+    min-width: 150px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.roadmap p {
+    font-size: 1em;
+    line-height: 1.75em;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #c59b1b 0%, #d53a9d 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    margin: 0;
+    padding: 40px;
+    counter-increment: section;
+    position: relative;
+    color: var(--black);
+}
+
+.roadmap p::before {
+    content: counter(section);
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 1.25em;
+    width: 1.25em;
+    background-color: var(--black);
+    text-align: center;
+    line-height: 1.25em;
+    color: var(--white);
+    font-size: 1em;
+}
+
+
+/* //odd number borders */
+
+.roadmap p:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+    text-align: right;
+}
+
+.roadmap p:nth-child(odd)::before {
+    left: 100%;
+    margin-left: -20px;
+}
+
+
+/* //even number borders */
+
+.roadmap p:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+    text-align: left;
+}
+
+.roadmap p:nth-child(even)::before {
+    right: 100%;
+    margin-right: -20px;
+}
+
+
+/* //handle first and last */
+
+.roadmap p:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.roadmap p:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* team-section */
+
+.team-section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--bg-color);
+    min-height: 100vh;
+}
+
+.team-section .container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.team-section .container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.team-section .container .card .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.team-section .container .card:hover .content {
+    transform: translateY(-20px);
+}
+
+.team-section .container .card .content .imgBx {
+    position: relative;
+    margin-top: -100px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.team-section .container .card .content .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-section .container .card .content .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.team-section .container .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.team-section .container .card .sci {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+
+.team-section .container .card .sci li {
+    list-style: none;
+    text-align: center;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.team-section .container .card:hover .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.team-section .container .card .sci li a {
+    color: #fff;
+    font-size: 11px;
 }

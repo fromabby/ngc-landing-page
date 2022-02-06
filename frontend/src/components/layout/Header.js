@@ -16,9 +16,10 @@ const Header = () => {
                         </label>
                         <nav className="nav">
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">The Team</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#idea-section">what we do</a></li>
+                                <li><a href="#team-section">who we are</a></li>
+                                <li><a href="#gallery">gallery</a></li>
+                                <li><a href="https://paras.id/neargangcouture.near/collections" target="_blank">paras collection</a></li>
                             </ul>
                         </nav>
                     </div>
