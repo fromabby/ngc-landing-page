@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+import Home from './components/Home'
+import Header from './components/layout/Header'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>NEAR <span style={{color: "#fff"}}>Gang Couture</span></h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Header />
+                {/* {loading ? <h1>Loading...</h1> : ( */}
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                    </Routes>
+                {/* )} */}
+                {/* <Footer /> */}
+            </div>
+        </Router>
+    );
 }
 
 export default App;

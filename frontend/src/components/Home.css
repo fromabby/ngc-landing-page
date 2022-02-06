@@ -1,0 +1,43 @@
+.description {
+    background-color: #060809;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 50px;
+}
+
+.brandName {
+    font-family: Retroica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: -0.1em;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.image-logo {
+    height: 125px;
+    margin-bottom: 5px;
+}
+
+.socials {
+    color: "white";
+    margin: 25px;
+    text-align: center;
+}
+
+.social-link {
+    margin: 5px 10px;
+    font-size: 35px;
+}
+
+.socials a:visited {
+    color: "white"
+}
