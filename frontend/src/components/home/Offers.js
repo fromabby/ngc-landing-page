@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Offers = () => {
@@ -23,7 +24,8 @@ const Offers = () => {
                             <Col md={4}>
                                 <img src="./assets/Female-Clothes.png" className="offer-icon"/>
                                 <h1>Who we are</h1>
-                                <p>Team</p>
+                                <p>meet the team behind it all</p>
+                                <Link to="/team" style={{textDecoration: 'underline', fontSize: '12px', color: 'white'}}>meet the team > </Link>
                             </Col>
                         </Row>
                     </Container>
