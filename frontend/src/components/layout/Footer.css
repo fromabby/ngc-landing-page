@@ -1,12 +1,32 @@
+:root {
+    --footer-bg: #101519;
+}
+
 footer {
-    background: #111;
+    background-color: var(--footer-bg) !important;
     height: auto;
     width: 100vw;
     padding-top: 40px;
     color: #fff;
 }
 
+.footer-content .logo a {
+    font-family: Retroica !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.1em;
+}
+
 .footer-content {
+    font-family: 'Quattrocento', serif !important;
+    background-color: var(--footer-bg) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,10 +50,10 @@ footer {
 }
 
 .footer-bottom {
-    background: #000;
+    background: var(--footer-bg);
     width: 100vw;
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -41,12 +61,6 @@ footer {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
-}
-
-.footer-bottom p a {
-    color: #44bae8;
-    font-size: 16px;
-    text-decoration: none;
 }
 
 .footer-bottom span {

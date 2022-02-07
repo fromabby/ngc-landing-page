@@ -18,9 +18,11 @@ const Footer = () => {
         <div className="footer">
             <footer>
                 <div className="footer-content">
-                    <h3>NEAR GANG COUTURE</h3>
+                    <div className="logo">
+                        <a href="#"><span style={{ color: "#FF9601" }}>NEAR GANG</span><span style={{ paddingLeft: "5px", color: "#fff" }}> COUTURE</span></a>
+                    </div>
                     <p>NEAR Gang Couture is an NFT brand that aims to build a premiere community of Haute Gang members in the NEAR Protocol that is for the community, by the community. It has its roots in PFP-based projects, character creators, and the fashion industry.</p>
-                    <div className="socials">
+                    <div className="footer-socials">
                         <a style={{ color: fbColor }} href="https://www.facebook.com/neargangcouture" onMouseEnter={() => {
                             setFbColor('#3b5998')
                         }} onMouseLeave={() => {
@@ -85,7 +87,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>copyright &copy;2022</p>
+                    <p>copyright &copy; 2022</p>
                 </div>
             </footer>
         </div>
