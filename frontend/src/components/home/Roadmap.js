@@ -30,3 +30,23 @@ const Roadmap = () => {
 }
 
 export default Roadmap
+
+// Phases:
+
+// Phase 1
+// Community Building in Discord and Twitter
+// Securing Genesis Partners
+// Genesis Collection Launch
+// Community Fund Launch
+// Charity Fund Launch
+// Merging Platform Launch
+
+// Phase 2
+// Open to Collaborations
+// Collaboration Collection Launch
+// Artist Platform Launch
+// Voting Platform Launch
+
+// Phase 3
+// Seasonal Collection Launch
+// Continuous Operation of the Organization
