@@ -6,7 +6,7 @@ const Timeline = () => {
     return (
         <>
             <div className="timeline-section">
-                <h1 style={{ color: '#fff', textAlign: 'center' }}>short-term timeline</h1>
+                <h3 style={{ color: '#fff', textAlign: 'center' }}>short-term timeline</h3>
                 <Carousel>
                     <Carousel.Item interval={2000}>
                         <img

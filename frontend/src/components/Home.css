@@ -150,7 +150,6 @@
     background-color: var(--bg-color);
     width: 100%;
     height: 100%;
-    padding: 0;
 }
 
 
@@ -240,9 +239,10 @@
 /* team-section */
 
 .team-section {
-    width: 100vw;
+    width: 100%;
     background-color: var(--bg-color);
     box-sizing: border-box;
+    padding: 4rem;
 }
 
 .team-section h1 {
@@ -254,7 +254,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin: 4rem 5vw;
+    margin: 0 5vw;
+    /*here*/
     padding: 0;
     list-style-type: none;
     justify-content: space-evenly;
@@ -394,4 +395,31 @@
     flex-basis: 100%;
     flex: 1;
     padding: 10px;
+}
+
+.offer-section {
+    background-color: var(--bg-color);
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.offer-section h1 {
+    font-size: 28px;
+}
+
+.offer-section p {
+    font-size: 12px;
+}
+
+.offer-section .offer-icon {
+    border-radius: 50%;
+    height: 100px;
+    min-height: 70px;
+    margin-bottom: 15px;
 }

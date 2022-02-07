@@ -5,20 +5,14 @@ import Card from './assets/Card'
 const TeamSection = () => {
     return (
         <>
-            <Container fluid className="p-0" style={{color: "#060809"}}>
+            <Container fluid className="p-0">
                 <div className="team-section" id="team-section">
-                    <h1>Founders</h1>
+                    <h1>the team</h1>
                     <ul class="cards">
                         <Card image={"https://i.imgur.com/oYiTqum.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/7D7I6dI.png"} title={"EL"} subtitle={"Lead director, co-founder"} description={"EL is the lead director and co-founder of NEAR Gang Couture (NGC)."} />
                         <Card image={"https://i.imgur.com/2DhmtJ4.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/sjLMNDM.png"} title={"Iinko"} subtitle={"Marketing director, co-founder"} description={"Iinko is the marketing director and co-founder of NGC."} />
-                    </ul>
-                    <h1>Artists</h1>
-                    <ul class="cards">
                         <Card image={"https://i.imgur.com/oYiTqum.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/7D7I6dI.png"} title={"Pemmie"} subtitle={"Art director"} description={"Pemmie is the art director of NGC. She met Iinko during his start in using the NEAR network and became quick friends."} />
                         <Card image={"https://i.imgur.com/2DhmtJ4.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/sjLMNDM.png"} title={"Charles"} subtitle={"Lead artist"} description={"Charles is the lead artist of NGC under Pemmie."} />
-                    </ul>
-                    <h1>Staff</h1>
-                    <ul class="cards">
                         <Card image={"https://i.imgur.com/oYiTqum.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/7D7I6dI.png"} title={"Yves"} subtitle={"Head of tech"} description={"Yves is the head of tech in NGC."} />
                         <Card image={"https://i.imgur.com/2DhmtJ4.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/sjLMNDM.png"} title={"Polly"} subtitle={"Resident graphic designer"} description={"Polly is the resident graphic designer of NGC. He is an artist and designer by trade as he manages multiple businesses."} />
                         <Card image={"https://i.imgur.com/oYiTqum.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/7D7I6dI.png"} title={"Abby"} subtitle={"Web developer"} description={"Abby is the web developer of NGC."} />

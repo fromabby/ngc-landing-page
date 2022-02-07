@@ -5,7 +5,6 @@ import IdeaSection from './home/IdeaSection'
 import HauteSection from './home/HauteSection'
 import Offers from './home/Offers'
 import TimeSection from './home/TimeSection'
-import TeamSection from './home/TeamSection'
 
 import { Container } from 'react-bootstrap'
 
@@ -17,7 +16,6 @@ const Home = () => {
             <HauteSection />
             <Offers />
             <TimeSection />
-            <TeamSection />
         </Container>
     )
 }

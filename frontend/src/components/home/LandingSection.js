@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faFacebook, faTwitter, faDiscord, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { Container } from 'react-bootstrap'
 
 const LandingSection = () => {

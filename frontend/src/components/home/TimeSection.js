@@ -7,7 +7,7 @@ const TimeSection = () => {
     return (
         <>
             <Container fluid className="p-0">
-                <Row>
+                <Row style={{ width: "99.78vw" }}>
                     <Col md={6} className="p-0">
                         <Roadmap />
                     </Col>

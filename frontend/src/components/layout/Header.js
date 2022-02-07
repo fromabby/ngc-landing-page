@@ -8,9 +8,9 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <div className="logo">
-                            <a href="#"><span style={{ color: "#FF9601" }}>NEAR GANG</span><span style={{ paddingLeft: "5px", color: "#fff" }}> COUTURE</span></a>
+                            <a href="/"><span style={{ color: "#FF9601" }}>NEAR GANG</span><span style={{ paddingLeft: "5px", color: "#fff" }}> COUTURE</span></a>
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -19,9 +19,10 @@ const Header = () => {
 
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#idea-section">what we do</Nav.Link>
-                            <Nav.Link href="#team-section">who we are</Nav.Link>
+                            <Nav.Link href="/#idea-section">what we do</Nav.Link>
+                            <Nav.Link href="/team">who we are</Nav.Link>
                             <Nav.Link href="#gallery">gallery</Nav.Link>
+                            <Nav.Link href="#gallery">faqs</Nav.Link>
                             <Nav.Link href="https://paras.id/neargangcouture.near/collections" target="_blank">paras collection</Nav.Link>
                             {/* <Nav.Link eventKey={2} href="#memes">Dank memes</Nav.Link> */}
 

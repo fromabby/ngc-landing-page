@@ -6,7 +6,7 @@ const Roadmap = () => {
         <>
             <Container fluid className="p-0">
                 <div className="roadmap" id="roadmap">
-                    <h1 style={{ color: '#fff', textAlign: 'center' }}>phases</h1>
+                    <h3 style={{ color: '#fff', textAlign: 'center' }}>phases</h3>
                     <main>
                         <p>
                             Community Building in Discord and Twitter<br />
