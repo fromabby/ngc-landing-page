@@ -3,8 +3,9 @@ import './Home.css'
 import LandingSection from './home/LandingSection'
 import IdeaSection from './home/IdeaSection'
 import Roadmap from './home/Roadmap'
-import TeamSection from './home/TeamSection'
 import HauteSection from './home/HauteSection'
+import Offers from './home/Offers'
+import TeamSection from './home/TeamSection'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <LandingSection/>
             <IdeaSection/>
             <HauteSection/>
+            <Offers/>
             <Roadmap/>
             <TeamSection/>
         </div>
