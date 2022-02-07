@@ -2,21 +2,23 @@ import React from 'react'
 import './Home.css'
 import LandingSection from './home/LandingSection'
 import IdeaSection from './home/IdeaSection'
-import Roadmap from './home/Roadmap'
 import HauteSection from './home/HauteSection'
 import Offers from './home/Offers'
+import TimeSection from './home/TimeSection'
 import TeamSection from './home/TeamSection'
+
+import { Container } from 'react-bootstrap'
 
 const Home = () => {
     return (
-        <div className="home">
-            <LandingSection/>
-            <IdeaSection/>
-            <HauteSection/>
-            <Offers/>
-            <Roadmap/>
-            <TeamSection/>
-        </div>
+        <Container fluid className="p-0">
+            <LandingSection />
+            <IdeaSection />
+            <HauteSection />
+            <Offers />
+            <TimeSection />
+            <TeamSection />
+        </Container>
     )
 }
 

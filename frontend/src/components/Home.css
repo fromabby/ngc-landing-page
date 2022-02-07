@@ -10,22 +10,15 @@
     --graypink: #060809;
 }
 
-.home {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--bg-color);
-}
-
 .landing-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--bg-color);
     font-size: calc(10px + 2vmin);
     color: white;
     padding: 50px;
+    height: 100vh;
 }
 
 .brand-name {
@@ -134,7 +127,6 @@
 .idea-section {
     background-color: var(--bg-color);
     min-height: 80vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,6 +141,23 @@
     line-height: 1.5em;
     padding-top: 10px;
     width: 80%;
+}
+
+
+/*timeline*/
+
+.timeline-section {
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+
+/*roadmap*/
+
+.roadmap {
+    background-color: var(--bg-color);
 }
 
 .roadmap main {
@@ -168,7 +177,7 @@
     padding: 40px;
     counter-increment: section;
     position: relative;
-    color: var(--black);
+    color: #fff;
 }
 
 .roadmap p::before {
@@ -176,8 +185,8 @@
     position: absolute;
     border-radius: 50%;
     padding: 10px;
-    height: 1.25em;
-    width: 1.25em;
+    height: 2.25em;
+    width: 2.25em;
     background-color: var(--black);
     text-align: center;
     line-height: 1.25em;
