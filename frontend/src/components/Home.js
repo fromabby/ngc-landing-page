@@ -4,8 +4,9 @@ import LandingSection from './home/LandingSection'
 import IdeaSection from './home/IdeaSection'
 import HauteSection from './home/HauteSection'
 import Offers from './home/Offers'
-import Roadmap from './home/Roadmap'
+import FaqsRoadmap from './home/FaqsRoadmap'
 import Timeline from './home/Timeline'
+import Faqs from './home/Faqs'
 
 import { Container } from 'react-bootstrap'
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Offers />
             {/* <HauteSection /> */}
             <Timeline />
+            <FaqsRoadmap />
             {/* <Roadmap /> */}
 
         </Container>

@@ -18,7 +18,7 @@ const LandingSection = () => {
                     <section id="first" className="landing-section">
                         <img src={`./assets/NGC-logo.png`} className="image-logo" />
                         <h3 className="brand-name" style={{ color: "#FF9601" }}>NEAR GANG<span style={{ paddingLeft: "5px", color: "#fff" }}>COUTURE</span></h3>
-                        <h1>A Filipino NFT brand</h1>
+                        <h1>near. gang. couture.</h1>
                         {/* <p style={{ margin: "50px 0", textAlign: 'center', width: "65%", fontSize: '16px', lineHeight: '27px' }}>NEAR Gang Couture is an NFT brand that aims to build a premiere community of Haute Gang members in the NEAR Protocol that is for the community, by the community. It has its roots in PFP-based projects, character creators, and the fashion industry.</p> */}
                         <div className="socials">
                             <Link style={{ color: twtColor }} to="https://twitter.com/neargangcouture" onMouseEnter={() => {

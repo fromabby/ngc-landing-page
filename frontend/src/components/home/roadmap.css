@@ -8,7 +8,10 @@ h1 span {
     font-weight: 600;
 }
 
-.roadmap {}
+.roadmap {
+    background: linear-gradient(180deg, #060809, #170c42);
+    /* background: linear-gradient(180deg, #060809, #FB9603); */
+}
 
 .roadmap-container {
     width: 80%;

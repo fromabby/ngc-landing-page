@@ -1,10 +1,18 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Faqs = () => {
     return (
-        <div>
-            <h1>FAQs</h1>
-        </div>
+        <>
+            <Container fluid className='p-0'>
+                <div style={{ background: '#170c42', color: '#fff', padding: '50px'}}>
+                    <h1>FAQs</h1>
+                    <p>
+                        How do I merge my assets together?
+                    </p>
+                </div>
+            </Container>
+        </>
     )
 }
 
