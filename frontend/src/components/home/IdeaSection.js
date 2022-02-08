@@ -14,7 +14,7 @@ const IdeaSection = () => {
                     </svg>
                     <div className="idea-section">
                         <Row className="section-title what-we-do">
-                            <h2>what we do</h2>
+                            <h2 className="highlight white">what we do</h2>
                         </Row>
                         <Row className="section-title">
                             <Col md={6}>

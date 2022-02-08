@@ -423,3 +423,21 @@
     margin-bottom: 15px;
     padding: 10px;
 }
+
+
+/*highlight*/
+
+.highlight {
+    margin: auto;
+    width: fit-content;
+}
+
+.highlight.gold {
+    color: #fff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #8c562f 40%);
+}
+
+.highlight.white {
+    color: var(--bg-color);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, #cbc7c4 15%);
+}
