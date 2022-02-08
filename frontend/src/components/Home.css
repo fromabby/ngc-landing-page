@@ -162,6 +162,8 @@
     background-color: var(--bg-color);
 }
 
+
+/* 
 .roadmap main {
     min-width: 150px;
     max-width: 500px;
@@ -194,12 +196,13 @@
     line-height: 1.25em;
     color: var(--white);
     font-size: 1em;
-}
+} */
 
 
 /* //odd number borders */
 
-.roadmap p:nth-child(odd) {
+
+/* .roadmap p:nth-child(odd) {
     border-right: 3px solid;
     padding-left: 0;
     text-align: right;
@@ -208,12 +211,13 @@
 .roadmap p:nth-child(odd)::before {
     left: 100%;
     margin-left: -20px;
-}
+} */
 
 
 /* //even number borders */
 
-.roadmap p:nth-child(even) {
+
+/* .roadmap p:nth-child(even) {
     border-left: 3px solid;
     padding-right: 0;
     text-align: left;
@@ -222,12 +226,13 @@
 .roadmap p:nth-child(even)::before {
     right: 100%;
     margin-right: -20px;
-}
+} */
 
 
 /* //handle first and last */
 
-.roadmap p:first-child {
+
+/* .roadmap p:first-child {
     border-top: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -236,7 +241,7 @@
 .roadmap p:last-child {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-}
+} */
 
 
 /* team-section */

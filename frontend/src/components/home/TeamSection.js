@@ -7,7 +7,7 @@ const TeamSection = () => {
         <>
             <Container fluid className="p-0">
                 <div className="team-section" id="team-section">
-                    <h1>the team</h1>
+                    <h1 style={{paddingBottom: '50px'}}>the team</h1>
                     <ul class="cards">
                         <Card image={"https://i.imgur.com/oYiTqum.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/7D7I6dI.png"} title={"EL"} subtitle={"Lead director, co-founder"} description={"EL is the lead director and co-founder of NEAR Gang Couture (NGC)."} />
                         <Card image={"https://i.imgur.com/2DhmtJ4.jpg"} xlmns={"http://www.w3.org/2000/svg"} smallicon={"https://i.imgur.com/sjLMNDM.png"} title={"Iinko"} subtitle={"Marketing director, co-founder"} description={"Iinko is the marketing director and co-founder of NGC."} />

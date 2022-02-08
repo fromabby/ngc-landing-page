@@ -8,7 +8,7 @@ const Card = (props) => {
     return (
         <>
             <li>
-                <a href="" class="card">
+                <div class="card">
                     <img src={image} class="card__image" alt="" />
                     <div class="card__overlay">
                         <div class="card__header">
@@ -21,7 +21,7 @@ const Card = (props) => {
                         </div>
                         <p class="card__description">{description}</p>
                     </div>
-                </a>
+                </div>
             </li>
         </>
     )

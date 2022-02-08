@@ -31,7 +31,7 @@ const Offers = () => {
                                     <img src="./assets/Female-Clothes.png" className="offer-icon" />
                                     <h1 className="highlight gold">who we are</h1>
                                     <p className='pt-4'>meet the team behind it all</p>
-                                    <Link to="/team" style={{ textDecoration: 'underline', fontSize: '12px', color: '#101519' }}>meet the team > </Link>
+                                    <Link to="/team" style={{ textDecoration: 'underline', fontSize: '12px', color: '#fff' }}>meet the team &#187; </Link>
                                 </Col>
                             </Row>
                         </Container>

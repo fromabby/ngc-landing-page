@@ -4,7 +4,8 @@ import LandingSection from './home/LandingSection'
 import IdeaSection from './home/IdeaSection'
 import HauteSection from './home/HauteSection'
 import Offers from './home/Offers'
-import TimeSection from './home/TimeSection'
+import Roadmap from './home/Roadmap'
+import Timeline from './home/Timeline'
 
 import { Container } from 'react-bootstrap'
 
@@ -13,9 +14,11 @@ const Home = () => {
         <Container fluid className="p-0">
             <LandingSection />
             <IdeaSection />
-            {/* <HauteSection /> */}
             <Offers />
-            {/* <TimeSection /> */}
+            {/* <HauteSection /> */}
+            <Timeline />
+            {/* <Roadmap /> */}
+
         </Container>
     )
 }
