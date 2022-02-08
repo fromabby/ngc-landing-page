@@ -9,12 +9,18 @@
     color: #060809;
 }
 
+.what-we-do {
+    padding-top: 110px;
+}
+
 .idea-section .row {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 30px 0px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .section-title {

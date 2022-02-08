@@ -41,9 +41,9 @@ const LandingSection = () => {
                                     className="social-link"
                                 />
                             </Link>
-                        </div>
-                        <div className="hello">
-                            <Link to="https://paras.id/neargangcouture.near/collections" target="_blank" id="join-button"></Link>
+                            <div className="hello">
+                                <Link to="https://paras.id/neargangcouture.near/collections" target="_blank" id="join-button"></Link>
+                            </div>
                         </div>
                     </section>
                 </div>
