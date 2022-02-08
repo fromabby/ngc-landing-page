@@ -13,9 +13,9 @@ const Home = () => {
         <Container fluid className="p-0">
             <LandingSection />
             <IdeaSection />
-            <HauteSection />
+            {/* <HauteSection /> */}
             <Offers />
-            <TimeSection />
+            {/* <TimeSection /> */}
         </Container>
     )
 }
