@@ -79,3 +79,15 @@ details div ul li p em {
     font-weight: 300;
     font-size: 12px;
 }
+
+.faqs-link {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 1px 0 0;
+}
+
+.faqs-link:hover {
+    color: white;
+    box-shadow: 0 3px 0 0;
+}

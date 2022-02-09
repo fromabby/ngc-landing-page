@@ -15,7 +15,7 @@ const Faqs = () => {
             <Container fluid className='p-0'>
                 <div style={{ background: '#170c42', color: '#fff', padding: '50px' }}>
                     <h3 className="faqs-header">FAQs</h3>
-                    <details open>
+                    <details>
                         <summary>
                             How do I merge my assets together?
                         </summary>
@@ -102,7 +102,7 @@ const Faqs = () => {
                                 <li>
                                 Patron Gets a WL Ticket:<br/>
                                     <p>
-                                    The patron gets a WL Ticket through <a href="https://paras.id/token/x.paras.near::168154">here</a> or through one of our giveaways.
+                                    The patron gets a WL Ticket through <a className="faqs-link" href="https://paras.id/token/x.paras.near::168154">here</a> or through one of our giveaways.
                                     </p>
                                 </li>
                                 <li>
