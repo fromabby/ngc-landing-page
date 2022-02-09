@@ -9,7 +9,7 @@ const Roadmap = () => {
                 <div>
                     <h3 style={{ color: '#fff', textAlign: 'center' }}>phases</h3>
                     <div>
-                        <h3>Phase 1</h3>
+                        <h3 style={{fontSize: '1rem'}}>Phase 1</h3>
                         <p>
                             Community Building in Discord and Twitter<br />
                             Securing Genesis Partners<br />
@@ -18,14 +18,14 @@ const Roadmap = () => {
                             Charity Fund Launch<br />
                             Merging Platform Launch
                         </p>
-                        <h3>Phase 2</h3>
+                        <h3 style={{fontSize: '1rem'}}>Phase 1</h3>
                         <p>
                             Open to Collaborations<br />
                             Collaboration Collection Launch<br />
                             Artist Platform Launch<br />
                             Voting Platform Launch
                         </p>
-                        <h3>Phase 3</h3>
+                        <h3 style={{fontSize: '1rem'}}>Phase 1</h3>
                         <p>
                             Seasonal Collection Launch<br />
                             Continuous Operation of the Organization

@@ -1,10 +1,10 @@
-h1 {
+.roadmap h1 {
     text-align: center;
     font-weight: 300;
     color: #fff
 }
 
-h1 span {
+.roadmap h1 span {
     font-weight: 600;
 }
 
