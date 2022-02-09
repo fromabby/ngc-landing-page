@@ -1,19 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-
-/* *,
-*:after,
-*:before {
-    box-sizing: border-box;
-} */
+.faqs-header {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
 
 :root {
     font-size: 16px;
 }
 
 details div {
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-left: 2px solid #130d26;
+    border-right: 2px solid #130d26;
+    border-bottom: 2px solid #130d26;
     padding: 1.5em;
 }
 
@@ -34,7 +32,7 @@ summary::-webkit-details-marker {
 }
 
 summary {
-    border: 2px solid #000;
+    border: 2px solid #130d26;
     padding: .75em 1em;
     cursor: pointer;
     position: relative;
@@ -49,7 +47,7 @@ summary:before {
     content: "↓";
     width: 1.75rem;
     height: 1.75rem;
-    background-color: #000;
+    background-color: #180C42;
     color: #FFF;
     display: inline-flex;
     justify-content: center;
@@ -69,26 +67,15 @@ summary:hover {
     background-color: #180C42;
 }
 
-a {
-    color: inherit;
-    font-weight: 600;
-    text-decoration: none;
-    box-shadow: 0 1px 0 0;
-}
-
-a:hover {
-    box-shadow: 0 3px 0 0;
-}
-
-code {
-    font-family: monospace;
-    font-weight: 600;
-}
-
 details div ul li p {
     font-weight: 300;
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 15px;
     border-bottom: solid #fff 1px;
+}
+
+details div ul li p em {
+    font-weight: 300;
+    font-size: 12px;
 }

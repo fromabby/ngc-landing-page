@@ -14,7 +14,7 @@ const Faqs = () => {
         <>
             <Container fluid className='p-0'>
                 <div style={{ background: '#170c42', color: '#fff', padding: '50px' }}>
-                    <h3>FAQs</h3>
+                    <h3 className="faqs-header">FAQs</h3>
                     <details open>
                         <summary>
                             How do I merge my assets together?
