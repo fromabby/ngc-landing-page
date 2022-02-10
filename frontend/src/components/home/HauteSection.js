@@ -9,7 +9,7 @@ const HauteSection = () => {
                     <Container>
                         <Row>
                             <Col md={3}>
-                                <img src="./assets/hautegang-logo.png" className="haute-icon" />
+                                <img src="./assets/logos/hautegang-logo.png" className="haute-icon" />
                             </Col>
                             <Col md={9}>
                                 <h3 className="haute-heading">haute gang collection</h3>

@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Home from './components/Home'
 import Team from './components/Team'
-import Section from './components/home/Section'
+import Marketplace from './components/Marketplace'
+import Gallery from './components/Gallery'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 
@@ -16,7 +17,7 @@ function App() {
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='/team' element={<Team />} />
-                        <Route path='/section' element={<Section />} />
+                        <Route path='/marketplace' element={<Marketplace />} />
                     </Routes>
                 {/* )} */}
                 <Footer />

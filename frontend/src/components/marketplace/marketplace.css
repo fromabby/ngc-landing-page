@@ -1,0 +1,50 @@
+.marketplace {
+    padding: 20px 30px;
+    background-color: #060809;
+}
+
+.marketplace h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.marketplace-card {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.marketplace-card a {
+    text-decoration: none;
+}
+
+.marketplace-card a:hover {
+    text-decoration: none;
+    color: #FF9601;
+}
+
+.marketplace-card h4 {
+    padding-top: 20px;
+}
+
+.marketplace-card h4:hover {
+    font-size: 25px;
+}
+
+.marketplace-card img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.marketplace-card img:hover {
+    border-radius: 50%;
+    width: 110px;
+}

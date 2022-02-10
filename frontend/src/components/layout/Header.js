@@ -21,7 +21,7 @@ const Header = () => {
                         <Nav>
                             <Nav.Link href="/">home</Nav.Link>
                             <Nav.Link href="/team">who we are</Nav.Link>
-                            <Nav.Link href="/gallery" disabled>gallery</Nav.Link>
+                            <Nav.Link href="/gallery">gallery</Nav.Link>
                             <Nav.Link href="/marketplace">marketplace</Nav.Link>
 
                             {/* <Nav.Link href="https://paras.id/neargangcouture.near/collections" target="_blank">paras collection</Nav.Link> */}
