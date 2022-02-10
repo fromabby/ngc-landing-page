@@ -12,7 +12,7 @@ const HauteSection = () => {
                                 <img src="./assets/hautegang-logo.png" className="haute-icon" />
                             </Col>
                             <Col md={9}>
-                                <h3>haute gang collection</h3>
+                                <h3 className="haute-heading">haute gang collection</h3>
                                 <p>Once minted, the owner of a Haute Gang can get themselves verified in the NGC Discord Server. The Haute Gang Role gives access to its recipient a multitude of perks. Aside from being part of a Premiere Gang of Metaverse Explorers, it also gives them power to vote on certain parts of the NGC Organization, claim shop discounts from partners, and be part of events organized by NGC and its partners.</p>
                                 <p><em>*A collector must have at least 1 Haute Gang in their collection to retain their membership in the gang.</em></p>
                             </Col>

@@ -9,7 +9,7 @@ const Roadmap = () => {
                 <div className="phases-section">
                     <h3 style={{ color: '#fff', textAlign: 'center' }}>phases</h3>
                     <div className="phases">
-                        <h4>Phase 1</h4>
+                        <h5>Phase 1</h5>
                         <p>
                             Community Building in Discord and Twitter<br />
                             Securing Genesis Partners<br />
@@ -18,14 +18,14 @@ const Roadmap = () => {
                             Charity Fund Launch<br />
                             Merging Platform Launch
                         </p>
-                        <h4>Phase 2</h4>
+                        <h5>Phase 2</h5>
                         <p>
                             Open to Collaborations<br />
                             Collaboration Collection Launch<br />
                             Artist Platform Launch<br />
                             Voting Platform Launch
                         </p>
-                        <h4>Phase 3</h4>
+                        <h5>Phase 3</h5>
                         <p>
                             Seasonal Collection Launch<br />
                             Continuous Operation of the Organization
