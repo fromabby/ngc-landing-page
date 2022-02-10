@@ -16,11 +16,11 @@ const Roadmap = () => {
                             Genesis Collection Launch<br />
                             Community Fund Launch<br />
                             Charity Fund Launch<br />
-                            Merging Platform Launch
+                            Merging Platform Launch<br/>
+                            Open to Collaborations
                         </p>
                         <h5>Phase 2</h5>
                         <p>
-                            Open to Collaborations<br />
                             Collaboration Collection Launch<br />
                             Artist Platform Launch<br />
                             Voting Platform Launch

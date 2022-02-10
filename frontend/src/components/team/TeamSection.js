@@ -7,16 +7,16 @@ const TeamSection = () => {
         <>
             <Container fluid className="p-0">
                 <div className="team-section" id="team-section">
-                    <h1 style={{paddingBottom: '50px'}}>the team</h1>
+                    <h1 style={{paddingBottom: '50px'}}>THE TEAM</h1>
                     <ul class="cards">
-                        <Card image={"./assets/HG/M4.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D3F8E2"} title={"EL"} subtitle={"Lead director, co-founder"} description={"EL is the lead director and co-founder of NEAR Gang Couture (NGC)."} />
-                        <Card image={"./assets/HG/M2.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D68FD6"} title={"Iinko"} subtitle={"Head of partnerships and promotions, co-founder"} description={"Iinko is the marketing director and co-founder of NGC."} />
-                        <Card image={"./assets/HG/F2.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#EDAFB8"} title={"Pemmie"} subtitle={"Art director"} description={"Pemmie is the art director of NGC. She met Iinko during his start in using the NEAR network and became quick friends."} />
-                        <Card image={"./assets/HG/M5.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#E4D6A7"} title={"Charles"} subtitle={"Lead artist"} description={"Charles is the lead artist of NGC under Pemmie."} />
-                        <Card image={"./assets/HG/M4.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D1B1C8"} title={"Yves"} subtitle={"Head of tech"} description={"Yves is the head of tech in NGC."} />
-                        <Card image={"./assets/HG/M3 copy.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#DDDDDD"} title={"Polly"} subtitle={"Resident graphic designer"} description={"Polly is the resident graphic designer of NGC. He is an artist and designer by trade as he manages multiple businesses."} />
-                        <Card image={"./assets/HG/F5.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#809BCE"} title={"Abby"} subtitle={"Web developer"} description={"Abby is the web developer of NGC."} />
-                        <Card image={"./assets/HG/M1.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#F7F052"} title={"Kenzero"} subtitle={"Marketing director"} description={"Kenzero is the marketing director of NGC."} />
+                        <Card image={"./assets/HG/M4.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D3F8E2"} title={"EL"} subtitle={"Founder"} description={"EL is the lead director and co-founder of NGC."} />
+                        <Card image={"./assets/HG/M2.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D68FD6"} title={"Iinko"} subtitle={"Founder"} description={"Iinko is the head of partnerships and promotions and co-founder of NGC."} />
+                        <Card image={"./assets/HG/F2.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#EDAFB8"} title={"Pemmie"} subtitle={"Artist"} description={"Pemmie is the art director of NGC."} />
+                        <Card image={"./assets/HG/M5.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#E4D6A7"} title={"Charles"} subtitle={"Artist"} description={"Charles is the lead artist of NGC under Pemmie."} />
+                        <Card image={"./assets/HG/M4.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D1B1C8"} title={"Yves"} subtitle={"Staff"} description={"Yves is the head of logistics and tech in NGC."} />
+                        <Card image={"./assets/HG/M3 copy.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#DDDDDD"} title={"Polly"} subtitle={"Staff"} description={"Polly is the resident graphic designer of NGC."} />
+                        <Card image={"./assets/HG/F5.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#809BCE"} title={"Abby"} subtitle={"Staff"} description={"Abby is the resident web developer of NGC."} />
+                        <Card image={"./assets/HG/M1.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#F7F052"} title={"Kenzero"} subtitle={"Staff"} description={"KKenzero is the marketing director of NGC."} />
                     </ul>
                 </div>
             </Container>

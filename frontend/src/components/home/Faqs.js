@@ -25,14 +25,14 @@ const Faqs = () => {
                                     Patron Buys from Collection:
                                     <br />
                                     <p>
-                                        The Patron must own 1 Base Character and an additional 3 accessories for it to be minted.
+                                    The Patron must own 1 Base Character and an additional 3 accessories for it to be minted.
                                     </p>
                                 </li>
                                 <li>
-                                    Patron Submits Merge Ticket in the NGC Discord Server:
+                                Patron Submits Merge Ticket in the NGC Discord Server:
                                     <br />
                                     <p>
-                                        The The Patron must submit a merge ticket using the #👷-merge-ticket channel in the NGC Discord server.
+                                    The Patron must submit a merge ticket using the #👷-merge-ticket channel in the NGC Discord server.
                                     </p>
                                 </li>
                                 <li>
@@ -51,20 +51,19 @@ const Faqs = () => {
                                 <li>
                                     Patron Goes Through the Verification Process<br />
                                     <p>
-                                        The team will need the patron to send a verification fee of .01N and proof of payment to the team to be verified.
+                                    The team will need the patron to send a verification fee of .01N and proof of payment to the team to be verified.
                                     </p>
                                 </li>
                                 <li>
                                     NGC Team Logs it in a Public Spreadsheet:<br />
                                     <p>
-                                        The team will log in the information in a spreadsheet open for viewing to the public, and then the Near address will be recorded that will be used as the queue for who will receive their haute gang in that order. The release schedule will be 50 haute gang merging slots per week. The tickets submitted after the 50th log in a week will be used as the start of the queue for the next week.
-
+                                    The team will log in the information in a spreadsheet open for viewing to the public, and then the Near address will be recorded that will be used as the queue for who will receive their haute gang in that order. The release schedule will be 50 haute gang merging slots per week. The tickets submitted after the 50th log in a week will be used as the start of the queue for the next week.
                                     </p>
                                 </li>
                                 <li>
                                     NGC Team Mints and Transfers the Haute Gang<br />
                                     <p>
-                                        After merging the assets, the team will then mint and transfer the haute gang to the given Near address.<br />
+                                    After merging the assets, the team will then mint and transfer the haute gang to the given Near address.<br />
                                         <em>* A near address can only submit 1 ticket per merging cycle</em>
 
                                     </p>
@@ -84,7 +83,7 @@ const Faqs = () => {
                                 </li>
                                 <li>
                                     Haute Gang Holder Submits Ticket in NGC Discord Server:<br />
-                                    <p>The Haute Gang Holder must submit a verification ticket using the #✅-verify-haute-gang channel in the NGC Discord server.</p>
+                                    <p>The Haute Gang Holder must fill out the form in the #✅-verify-haute-gang channel in the NGC Discord server.</p>
                                 </li>
                                 <li>
                                     NGC Team Confirms Haute Gang of Holder:<br />
@@ -107,7 +106,7 @@ const Faqs = () => {
                                 </li>
                                 <li>
                                 WL Ticket Holder Submits Ticket in NGC Discord Server:<br/>
-                                    <p>The WL Ticket Holder must submit a verification ticket using the #✅-verify-whitelist channel in the NGC Discord server.</p>
+                                    <p>The WL Ticket Holder must fill out the form in the #✅-verify-whitelist channel in the NGC Discord server.</p>
                                 </li>
                                 <li>
                                 NGC Team Confirms Whitelist Ticket of Holder:<br/>

@@ -15,6 +15,7 @@ const Timeline = () => {
                             <div className="timeline-content">
                                 <h3>January 2022</h3>
                                 <p>
+                                    Phase 1 Start<br/>
                                     Inception of Idea<br />
                                     Creation of Base Assets<br />
                                     Securing Core Team
@@ -58,6 +59,15 @@ const Timeline = () => {
                                     Community Auction<br />
                                     Charity Drive Launch<br />
                                     2 Cycle Pause on Merging
+                                </p>
+                            </div>
+                        </div>
+                        <div className="timeline-block timeline-block-left">
+                            <div className="marker"></div>
+                            <div className="timeline-content">
+                                <h3>May 2022</h3>
+                                <p>
+                                    Phase 2 Start
                                 </p>
                             </div>
                         </div>

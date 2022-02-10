@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import TeamSection from './home/TeamSection'
+import TeamSection from './team/TeamSection'
 
 const Team = () => {
     return (
