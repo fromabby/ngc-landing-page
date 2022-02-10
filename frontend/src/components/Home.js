@@ -16,11 +16,9 @@ const Home = () => {
             <LandingSection />
             <IdeaSection />
             <Offers />
-            {/* <HauteSection /> */}
+            <HauteSection />
             <Timeline />
             <FaqsRoadmap />
-            {/* <Roadmap /> */}
-
         </Container>
     )
 }
