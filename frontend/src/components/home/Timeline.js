@@ -8,7 +8,7 @@ const Timeline = () => {
         <>
             <Container fluid className="p-0">
                 <div className="roadmap">
-                    <h3><span>short-term timeline</span></h3>
+                    <h3 className="roadmap-heading"><span>short-term timeline</span></h3>
                     <div className="roadmap-container">
                         <div className="timeline-block timeline-block-right">
                             <div className="marker"></div>
@@ -62,7 +62,7 @@ const Timeline = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="timeline-block timeline-block-left">
+                        <div className="timeline-block timeline-block-right">
                             <div className="marker"></div>
                             <div className="timeline-content">
                                 <h3>May 2022</h3>
