@@ -20,7 +20,7 @@ const MarketplacePage = () => {
                         <Card title={"Music"} link={"https://paras.id/collection/haute-gang-music-by-neargangcouturenear"} icon={"./assets/icons/Music.png"} background={"#E94F37"} />
                         <Card title={"Backgrounds"} link={"https://paras.id/collection/haute-gang-backgrounds-by-neargangcouturenear"} icon={"./assets/icons/Background.png"} background={"#ACF39D"} />
                         <Card title={"Collaboration Pieces"} link={"https://paras.id/collection/haute-gang-collaborations-by-neargangcouturenear"} icon={"./assets/icons/Avatar.png"} background={"#ACF39D"} />
-                    </Row>ƒ
+                    </Row>
                 </div>
             </Container>
         </>

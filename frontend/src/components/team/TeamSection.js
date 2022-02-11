@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import Card from './assets/Card'
+import './team.css'
 
 const TeamSection = () => {
     return (

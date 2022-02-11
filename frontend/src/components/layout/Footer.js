@@ -26,7 +26,7 @@ const Footer = () => {
                                 <Link to="/"><span style={{ color: "#FF9601" }}>NEAR GANG</span><span style={{ paddingLeft: "5px", color: "#fff" }}> COUTURE</span></Link>
                             </div>
                             {/* <p>NEAR Gang Couture is an NFT brand that aims to build a premiere community of Haute Gang members in the NEAR Protocol that is for the community, by the community. It has its roots in PFP-based projects, character creators, and the fashion industry.</p> */}
-                            <div className="footer-socials">
+                            <div className="footer-socials" style={{fontSize: '20px'}}>
                                 <Link style={{ color: fbColor }} to="https://www.facebook.com/neargangcouture" onMouseEnter={() => {
                                     setFbColor('#3b5998')
                                 }} onMouseLeave={() => {
@@ -34,7 +34,7 @@ const Footer = () => {
                                 }}>
                                     <FontAwesomeIcon
                                         icon={faFacebook}
-                                        className="social-link"
+                                        className="footer-social-link"
                                     />
                                 </Link>
                                 <Link style={{ color: twtColor }} to="https://twitter.com/neargangcouture" onMouseEnter={() => {
@@ -44,7 +44,7 @@ const Footer = () => {
                                 }}>
                                     <FontAwesomeIcon
                                         icon={faTwitter}
-                                        className="social-link"
+                                        className="footer-social-link"
                                     />
                                 </Link>
                                 <Link style={{ color: discColor }} to="https://discord.gg/qkTevDBaN9" onMouseEnter={() => {
@@ -54,7 +54,7 @@ const Footer = () => {
                                 }}>
                                     <FontAwesomeIcon
                                         icon={faDiscord}
-                                        className="social-link"
+                                        className="footer-social-link"
                                     />
                                 </Link>
                                 <Link style={{ color: igColor }} to="https://instagram.com/neargangcouture" onMouseEnter={() => {
@@ -65,7 +65,7 @@ const Footer = () => {
                                 }}>
                                     <FontAwesomeIcon
                                         icon={faInstagram}
-                                        className="social-link"
+                                        className="footer-social-link"
                                     />
                                 </Link>
                                 <Link style={{ color: linColor }} to="https://www.linkedin.com/company/near-gang-couture" onMouseEnter={() => {
@@ -75,7 +75,7 @@ const Footer = () => {
                                 }}>
                                     <FontAwesomeIcon
                                         icon={faLinkedin}
-                                        className="social-link"
+                                        className="footer-social-link"
                                     />
                                 </Link>
                                 <Link style={{ color: mailColor }} to="mailto:neargangcouture@gmail.com" onMouseEnter={() => {
@@ -85,7 +85,7 @@ const Footer = () => {
                                 }}>
                                     <FontAwesomeIcon
                                         icon={faEnvelope}
-                                        className="social-link"
+                                        className="footer-social-link"
                                     />
                                 </Link>
                             </div>

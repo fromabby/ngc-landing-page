@@ -9,6 +9,11 @@ footer {
     color: #fff;
 }
 
+.footer-social-link {
+    font-size: 30px;
+    margin: 10px;
+}
+
 .footer-content .logo a {
     font-family: Retroica !important;
     font-style: normal;

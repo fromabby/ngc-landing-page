@@ -7,7 +7,7 @@ const Card = (props) => {
 
     return (
         <>
-            <Col md={3} className="marketplace-card" style={{ background }}>
+            <Col lg={4} className="marketplace-card" style={{ background }}>
                 <a href={link} target="_blank">
                     <img src={icon} />
                     <h4>{title}</h4>
