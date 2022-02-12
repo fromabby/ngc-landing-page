@@ -281,6 +281,24 @@
     margin: auto;
 }
 
+.haute-section .haute-icon-1 {
+    height: 310px;
+    min-height: 70px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .haute-section .haute-icon {
+        height: 270px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .haute-section .haute-icon-1 {
+        height: 150px;
+        margin: auto;
+    }
+}
+
 .haute-heading {
     font-weight: 500;
 }
