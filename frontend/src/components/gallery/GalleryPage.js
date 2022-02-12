@@ -11,9 +11,9 @@ const GalleryPage = () => {
                 <div className="gallery-section">
                     <h1>GALLERY</h1>
                     <Row>
-                        <Card title={"Haute Gang"} link={"https://paras.id/collection/haute-gang-by-neargangcouturenear"} icon={"./assets/logos/hautegang-logo.jpg"} background={"#538083"} />
-                        <Card title={"Haute Gang Specials"} link={"https://paras.id/collection/haute-gang-specials-by-neargangcouturenear"} icon={"./assets/logos/hautegang-specials-logo.jpg"} background={"#586994"} />
-                    </Row>ƒ
+                        <Card title={"Haute Gang"} link={"https://paras.id/collection/haute-gang-by-neargangcouturenear"} icon={"./assets/logos/hautegang-logo.jpg"} style={{marginLeft: "auto"}}/>
+                        <Card title={"Haute Gang Specials"} link={"https://paras.id/collection/haute-gang-specials-by-neargangcouturenear"} icon={"./assets/logos/hautegang-specials-logo.jpg"} style={{marginLeft: "auto"}}/>
+                    </Row>
                 </div>
             </Container>
         </>

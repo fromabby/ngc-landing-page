@@ -7,7 +7,7 @@ const Roadmap = () => {
         <>
             <Container fluid className="p-0">
                 <div className="phases-section">
-                    <h3 style={{ color: '#fff', textAlign: 'center' }}>phases</h3>
+                    <h3 style={{ color: '#fff', textAlign: 'center' }} className="highlight purple pb-0 mb-4">phases</h3>
                     <div className="phases">
                         <h5>Phase 1</h5>
                         <p>

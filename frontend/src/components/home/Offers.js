@@ -15,25 +15,19 @@ const Offers = () => {
                     <div className="offer-section section-title">
                         <Container style={{ color: 'white', marginTop: '-30px', zIndex: '1' }}>
                             <Row>
-                                <Col md={4} style={{ marginBottom: '50px' }}>
-                                    <img src="./assets/icons/Necklace.png" className="offer-icon" />
+                                <Col md={6} style={{ marginBottom: '50px' }}>
+                                    <img src="./assets/icons/Charity.png" className="offer-icon" />
                                     <h1 className="highlight gold">charity of choice</h1>
-                                    <p className='pt-4'>The team will pick a charity of its choosing to award a portion of the sales. The suggestions of the community will be greatly considered, especially the vote of the Haute Gang.
+                                    <p className='pt-6'>The team will pick a charity of its choosing to award a portion of the sales. The suggestions of the community will be greatly considered, especially the vote of the Haute Gang.
                                     </p><p>
                                         The allocated funds will be used every four cycles to be donated to the charity of choice. For full transparency, it will be documented in the NGC Discord Server.</p>
                                 </Col>
-                                <Col md={4} style={{ marginBottom: '50px' }}>
-                                    <img src="./assets/icons/Earrings.png" className="offer-icon" />
+                                <Col md={6} style={{ marginBottom: '50px' }}>
+                                    <img src="./assets/icons/Fund.png" className="offer-icon" />
                                     <h1 className="highlight gold">community fund</h1>
                                     <p className='pt-4'>NEAR Gang Couture thrives in a community of artists. It aims to help struggling and upstart artists in the space by giving them a “Blue Dot Cutie” moment where the fund personally purchases art from them, and helps promote it using its platform.
                                     </p><p>
                                         This will be managed by a fund manager who will also be responsible for awarding new artists .5N+ for them to start their wallet and be able to mint their art pieces as well.</p>
-                                </Col>
-                                <Col md={4} style={{ marginBottom: '5px' }}>
-                                    <img src="./assets/icons/Female-Clothes.png" className="offer-icon" />
-                                    <h1 className="highlight gold">who we are</h1>
-                                    <p className='pt-4'>meet the team behind it all</p>
-                                    <Link to="/team" style={{ textDecoration: 'underline', fontSize: '12px', color: '#fff' }}>meet the team &#187; </Link>
                                 </Col>
                             </Row>
                         </Container>

@@ -9,6 +9,12 @@
     margin-bottom: 40px;
 }
 
+.gallery-section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gallery-card {
     width: 100%;
     max-width: 300px;
@@ -40,9 +46,11 @@
 }
 
 .gallery-card img {
-    width: 190px;
+    width: 210px;
+    border-radius: 30px;
 }
 
 .gallery-card img:hover {
-    width: 200px;
+    border-radius: 30px;
+    width: 220px;
 }
