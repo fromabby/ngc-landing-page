@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-
-/* @font-face {
+@font-face {
     font-family: "Retroica";
     src: url("../assets/fonts/Retroica.ttf") format("truetype");
-} */
+}
 
 :root {
     --bg-color: #060809;
