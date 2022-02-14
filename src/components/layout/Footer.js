@@ -22,6 +22,9 @@ const Footer = () => {
                 <div className="footer">
                     <footer>
                         <div className="footer-content">
+                            <div style={{marginBottom: '5px'}}>
+                                <h4>CHOOSE YOUR STYLE. OWN IT!</h4>
+                            </div>
                             <div className="logo">
                                 <Link to="/"><span style={{ color: "#FF9601" }}>NEAR GANG</span><span style={{ paddingLeft: "5px", color: "#fff" }}> COUTURE</span></Link>
                             </div>

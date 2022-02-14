@@ -18,8 +18,8 @@ const MarketplacePage = () => {
                         <Card title={"Necklaces"} link={"https://paras.id/collection/haute-gang-necklaces-by-neargangcouturenear"} icon={"./assets/icons/Necklace.png"} background={"#C2948A"} />
                         <Card title={"Earrings"} link={"https://paras.id/collection/haute-gang-earrings-by-neargangcouturenear"} icon={"./assets/icons/Earrings.png"} background={"#9F84BD"} />
                         <Card title={"Music"} link={"https://paras.id/collection/haute-gang-music-by-neargangcouturenear"} icon={"./assets/icons/Music.png"} background={"#E94F37"} />
-                        <Card title={"Backgrounds"} link={"https://paras.id/collection/haute-gang-backgrounds-by-neargangcouturenear"} icon={"./assets/icons/Background.png"} background={"#ACF39D"} />
-                        <Card title={"Collaboration Pieces"} link={"https://paras.id/collection/haute-gang-collaborations-by-neargangcouturenear"} icon={"./assets/icons/Avatar.png"} background={"#ACF39D"} />
+                        <Card title={"Backgrounds"} link={"https://paras.id/collection/haute-gang-backgrounds-by-neargangcouturenear"} icon={"./assets/icons/Background.png"} background={"#8DCB80"} />
+                        <Card title={"Collaboration Pieces"} link={"https://paras.id/collection/haute-gang-collaborations-by-neargangcouturenear"} icon={"./assets/icons/Collabs.png"} background={"#25283D"} />
                     </Row>
                 </div>
             </Container>

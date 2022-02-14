@@ -17,7 +17,7 @@ const TeamSection = () => {
                         <Card image={"./assets/HG/M4.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#D1B1C8"} title={"Yves"} subtitle={"Staff"} description={"Yves is the head of logistics and tech in NGC."} />
                         <Card image={"./assets/HG/M3 copy.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#DDDDDD"} title={"Polly"} subtitle={"Staff"} description={"Polly is the resident graphic designer of NGC."} />
                         <Card image={"./assets/HG/F5.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#809BCE"} title={"Abby"} subtitle={"Staff"} description={"Abby is the resident web developer of NGC."} />
-                        <Card image={"./assets/HG/M1.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#F7F052"} title={"Kenzero"} subtitle={"Staff"} description={"KKenzero is the marketing director of NGC."} />
+                        <Card image={"./assets/HG/M1.png"} xlmns={"http://www.w3.org/2000/svg"} background={"#F7F052"} title={"Kenzero"} subtitle={"Staff"} description={"Kenzero is the marketing director of NGC."} />
                     </ul>
                 </div>
             </Container>

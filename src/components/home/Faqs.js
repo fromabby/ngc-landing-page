@@ -4,7 +4,7 @@ import './faqs.css'
 
 const Faqs = () => {
     const list = ['Clothes Number',
-        'Face Number',
+        'Mask Number',
         'Hat Number',
         'Necklace Number',
         'Earrings Number',
@@ -39,7 +39,7 @@ const Faqs = () => {
                                     Patron Must Provide the Following Information to Merge:<br />
                                     <p>
                                         Near Address<br />
-                                        Base Character Number<br />
+                                        Avatar Number<br />
                                         Plus any 3 of the following:<br />
                                         <ul>
                                             {list.map(x => (
@@ -65,7 +65,6 @@ const Faqs = () => {
                                     <p>
                                     After merging the assets, the team will then mint and transfer the haute gang to the given Near address.<br />
                                         <em>* A near address can only submit 1 ticket per merging cycle</em>
-
                                     </p>
                                 </li>
                             </ul>
