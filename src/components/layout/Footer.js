@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                             {/* <p>NEAR Gang Couture is an NFT brand that aims to build a premiere community of Haute Gang members in the NEAR Protocol that is for the community, by the community. It has its roots in PFP-based projects, character creators, and the fashion industry.</p> */}
                             <div className="footer-socials" style={{fontSize: '20px'}}>
-                                <Link style={{ color: fbColor }} to="https://www.facebook.com/neargangcouture" onMouseEnter={() => {
+                                <a style={{ color: fbColor }} target="_blank" href="https://www.facebook.com/neargangcouture" onMouseEnter={() => {
                                     setFbColor('#3b5998')
                                 }} onMouseLeave={() => {
                                     setFbColor(defaultColor)
@@ -39,8 +39,8 @@ const Footer = () => {
                                         icon={faFacebook}
                                         className="footer-social-link"
                                     />
-                                </Link>
-                                <Link style={{ color: twtColor }} to="https://twitter.com/neargangcouture" onMouseEnter={() => {
+                                </a>
+                                <a style={{ color: twtColor }} target="_blank" href="https://twitter.com/neargangcouture" onMouseEnter={() => {
                                     setTwtColor('#1DA1F2')
                                 }} onMouseLeave={() => {
                                     setTwtColor(defaultColor)
@@ -49,8 +49,8 @@ const Footer = () => {
                                         icon={faTwitter}
                                         className="footer-social-link"
                                     />
-                                </Link>
-                                <Link style={{ color: discColor }} to="https://discord.gg/qkTevDBaN9" onMouseEnter={() => {
+                                </a>
+                                <a style={{ color: discColor }} target="_blank" href="https://discord.gg/qkTevDBaN9" onMouseEnter={() => {
                                     setDiscColor('#5865F2')
                                 }} onMouseLeave={() => {
                                     setDiscColor(defaultColor)
@@ -59,8 +59,8 @@ const Footer = () => {
                                         icon={faDiscord}
                                         className="footer-social-link"
                                     />
-                                </Link>
-                                <Link style={{ color: igColor }} to="https://instagram.com/neargangcouture" onMouseEnter={() => {
+                                </a>
+                                <a style={{ color: igColor }} target="_blank" href="https://instagram.com/neargangcouture" onMouseEnter={() => {
                                     setIgColor('#e1306c')
                                     // setIgColor('linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d')
                                 }} onMouseLeave={() => {
@@ -70,8 +70,8 @@ const Footer = () => {
                                         icon={faInstagram}
                                         className="footer-social-link"
                                     />
-                                </Link>
-                                <Link style={{ color: linColor }} to="https://www.linkedin.com/company/near-gang-couture" onMouseEnter={() => {
+                                </a>
+                                <a style={{ color: linColor }} target="_blank" href="https://www.linkedin.com/company/near-gang-couture" onMouseEnter={() => {
                                     setLinColor('#0e76a8')
                                 }} onMouseLeave={() => {
                                     setLinColor(defaultColor)
@@ -80,8 +80,8 @@ const Footer = () => {
                                         icon={faLinkedin}
                                         className="footer-social-link"
                                     />
-                                </Link>
-                                <Link style={{ color: mailColor }} to="mailto:neargangcouture@gmail.com" onMouseEnter={() => {
+                                </a>
+                                <a style={{ color: mailColor }} target="_blank" href="mailto:neargangcouture@gmail.com" onMouseEnter={() => {
                                     setMailColor('#FB9702')
                                 }} onMouseLeave={() => {
                                     setMailColor(defaultColor)
@@ -90,7 +90,7 @@ const Footer = () => {
                                         icon={faEnvelope}
                                         className="footer-social-link"
                                     />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="footer-bottom">
