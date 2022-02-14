@@ -18,7 +18,7 @@ const Offers = () => {
                                 <Col md={6} style={{ marginBottom: '50px' }}>
                                     <img src="./assets/icons/Charity.png" className="offer-icon" />
                                     <h1 className="highlight gold">charity of choice</h1>
-                                    <p className='pt-6'>The team will pick a charity of its choosing to award a portion of the sales. The suggestions of the community will be greatly considered, especially the vote of the Haute Gang.
+                                    <p className='pt-4'>The team will pick a charity of its choosing to award a portion of the sales. The suggestions of the community will be greatly considered, especially the vote of the Haute Gang.
                                     </p><p>
                                         The allocated funds will be used every four cycles to be donated to the charity of choice. For full transparency, it will be documented in the NGC Discord Server.</p>
                                 </Col>
