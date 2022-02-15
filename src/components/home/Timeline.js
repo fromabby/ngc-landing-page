@@ -57,8 +57,7 @@ const Timeline = () => {
                                 <p>
                                     Big Asset Giveaway<br />
                                     Community Auction<br />
-                                    Charity Drive Launch<br />
-                                    2 Cycle Pause on Merging
+                                    Charity Drive Launch
                                 </p>
                             </div>
                         </div>
