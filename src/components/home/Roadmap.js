@@ -11,24 +11,28 @@ const Roadmap = () => {
                     <div className="phases">
                         <h5>Phase 1</h5>
                         <p>
-                            Community Building in Discord and Twitter<br />
-                            Securing Genesis Partners<br />
-                            Genesis Collection Launch<br />
-                            Community Fund Launch<br />
-                            Charity Fund Launch<br />
+                            Community Building in Discord and Twitter<br/>
+                            Securing Genesis Partners<br/>
+                            Genesis Collection Launch<br/>
+                            Lore and RP Channels Drop<br/>
+                            Community Fund Launch<br/>
+                            Charity Fund Launch<br/>
                             Merging Platform Launch<br/>
                             Open to Collaborations
+
                         </p>
                         <h5>Phase 2</h5>
                         <p>
-                            Collaboration Collection Launch<br />
-                            Artist Platform Launch<br />
+                            Collaboration Collection Launch<br/>
+                            Artist Platform Launch<br/>
                             Voting Platform Launch
+
                         </p>
                         <h5>Phase 3</h5>
                         <p>
-                            Seasonal Collection Launch<br />
+                            Seasonal Collection Launch<br/>
                             Continuous Operation of the Organization
+
                         </p>
                     </div>
                 </div>

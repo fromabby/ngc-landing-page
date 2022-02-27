@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Team from './components/Team'
 import Marketplace from './components/Marketplace'
 import Gallery from './components/Gallery'
+import Lore from './components/Lore'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 
@@ -19,6 +20,7 @@ function App() {
                         <Route path='/team' element={<Team />} />
                         <Route path='/marketplace' element={<Marketplace />} />
                         <Route path='/gallery' element={<Gallery />} />
+                        <Route path='/lore' element={<Lore />} />
                     </Routes>
                 {/* )} */}
                 <Footer />

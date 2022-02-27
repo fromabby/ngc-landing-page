@@ -1,0 +1,12 @@
+.lore-section {
+    width: 100%;
+    background-color: var(--bg-color);
+    box-sizing: border-box;
+    height: 57.9vh;
+    padding: 4rem;
+}
+
+.lore-section h1 {
+    color: #fff;
+    text-align: center;
+}

@@ -21,7 +21,8 @@ const Header = () => {
                             <Nav.Link href="/team">who we are</Nav.Link>
                             <Nav.Link href="/gallery">gallery</Nav.Link>
                             <Nav.Link href="/marketplace">marketplace</Nav.Link>
-                            <Nav.Link href="/" disabled>whitepaper</Nav.Link>
+                            <Nav.Link href="https://docs.google.com/document/d/1lQMF6t4BpOQ611tLlsIvvjIauuoyD_LLVBj0b2HL3KU/edit?usp=sharing">whitepaper</Nav.Link>
+                            <Nav.Link href="/lore">lore</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

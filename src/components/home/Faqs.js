@@ -8,8 +8,18 @@ const Faqs = () => {
         'Hat Number',
         'Necklace Number',
         'Earrings Number',
-        'Music Number',
-        'Background Number']
+        'Music Number']
+
+    const gachas = [
+        'Patron fills out the form in the #🎰-gacha-form channel in the NGC Discord server.',
+        'Each entry will be .5 N with an extra spin for every 10 consecutive entries.',
+        'Items will be graded based on their scarcity in the pool.',
+        'The team will stop accepting forms after the 100th entry for each Gacha Form Day.',
+        'The day after the Forms are filled out will be Gachapon Day.',
+        'There will be a live drawing of the gacha on Gachapon Day in the #✨-events-stage in the NGC Discord Server.',
+        'The winnings will be recorded in a spreadsheet open for public viewing.',
+        'The prizes will be transferred soon after to each patron’s NEAR Wallet'
+    ]
     return (
         <>
             <Container fluid className='p-0'>
@@ -25,7 +35,7 @@ const Faqs = () => {
                                     Patron Buys from Collection:
                                     <br />
                                     <p>
-                                        The Patron must own 1 Avatar and an additional 3 accessories for it to be merged and minted.
+                                        The Patron must own 1 Avatar, a background, and an additional 3 accessories for it to be merged and minted.
                                     </p>
                                 </li>
                                 <li>
@@ -41,6 +51,8 @@ const Faqs = () => {
                                         Name.near Address<br />
                                         Discord Name#0000<br />
                                         Avatar Number
+                                        Background Number
+                                        Plus any 3 of the following:
                                         <ul>
                                             {list.map(x => (
                                                 <li>{x}</li>
@@ -55,13 +67,19 @@ const Faqs = () => {
                                     </p>
                                 </li>
                                 <li>
+                                    Patron Sends the Assets to be Merged in a Closet Account<br />
+                                    <p>
+                                        The patron must then transfer the assets they want merged to the closet account
+                                    </p>
+                                </li>
+                                <li>
                                     NGC Team Logs it in a Public Spreadsheet:<br />
                                     <p>
                                         The team will log in the information in a spreadsheet open for viewing to the public, and then the Near address will be recorded that will be used as the queue for who will receive their haute gang in that order. The release schedule will be 50 haute gang merging slots per week. The tickets submitted after the 50th log in a week will be used as the start of the queue for the next week.
                                     </p>
                                 </li>
                                 <li>
-                                    NGC Team Mints and Transfers the Haute Gang<br />
+                                    NGC Team Mints and Transfers the Haute Gang:<br />
                                     <p>
                                         After merging the assets, the team will then mint and transfer the haute gang to the given Near address.<br />
                                         <em>* A near address can only submit 1 ticket per merging cycle</em>
@@ -111,6 +129,18 @@ const Faqs = () => {
                                     NGC Team Confirms Whitelist Ticket of Holder:<br />
                                     <p>The team will need the patron to send a verification fee of .01N and proof of payment to the team to be verified. The role “WL Holder” is then given in the NGC Discord server.</p>
                                 </li>
+                            </ul>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>
+                            How do I join the Gacha?
+                        </summary>
+                        <div>
+                            <ul>
+                                {gachas.map(gacha => (
+                                    <li>{gacha}</li>
+                                ))}
                             </ul>
                         </div>
                     </details>
