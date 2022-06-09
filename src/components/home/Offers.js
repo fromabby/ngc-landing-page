@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Offers = () => {
@@ -16,14 +14,14 @@ const Offers = () => {
                         <Container style={{ color: 'white', marginTop: '-30px', zIndex: '1' }}>
                             <Row>
                                 <Col md={6} style={{ marginBottom: '50px' }}>
-                                    <img src="./assets/icons/Charity.png" className="offer-icon" />
+                                    <img src="./assets/icons/Charity.png" className="offer-icon" alt="Charity icon" />
                                     <h1 className="highlight gold">charity of choice</h1>
                                     <p className='pt-4'>The team will pick a charity of its choosing to award a portion of the sales. The suggestions of the community will be greatly considered, especially the vote of the Haute Gang.
                                     </p><p>
                                         The allocated funds will be used every four cycles to be donated to the charity of choice. For full transparency, it will be documented in the NGC Discord Server.</p>
                                 </Col>
                                 <Col md={6} style={{ marginBottom: '50px' }}>
-                                    <img src="./assets/icons/Fund.png" className="offer-icon" />
+                                    <img src="./assets/icons/Fund.png" className="offer-icon" alt="Offering icon" />
                                     <h1 className="highlight gold">community fund</h1>
                                     <p className='pt-4'>NEAR Gang Couture thrives in a community of artists. It aims to help struggling and upstart artists in the space by giving them a “Blue Dot Cutie” moment where the fund personally purchases art from them, and helps promote it using its platform.
                                     </p><p>

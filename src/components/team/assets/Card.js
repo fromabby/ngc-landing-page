@@ -16,7 +16,7 @@ const Card = (props) => {
                             {/* <img class="card__thumb" src={smallicon} alt="" /> */}
                             <div class="card__header-text">
                                 <h3 class="card__title">{title}</h3>
-                                <span class="card__status">{subtitle}</span>
+                                <span class="card__status" style={{ fontStyle: 'italic' }}>{subtitle}</span>
                             </div>
                         </div>
                         <p class="card__description">{description}</p>

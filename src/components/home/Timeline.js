@@ -1,6 +1,5 @@
-import React from 'react'
 import './roadmap.css'
-import { Container, Carousel } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const Timeline = () => {
 
@@ -14,9 +13,9 @@ const Timeline = () => {
                             <div className="marker"></div>
                             <div className="timeline-content">
                                 <h3>January 2022</h3>
-                                <p>Inception of Idea<br/>
-                                Creation of Base Assets<br/>
-                                Securing Core Team
+                                <p>Inception of Idea<br />
+                                    Creation of Base Assets<br />
+                                    Securing Core Team
 
                                 </p>
                             </div>
@@ -25,14 +24,14 @@ const Timeline = () => {
                             <div className="marker"></div>
                             <div className="timeline-content">
                                 <h3>February 2022</h3>
-                                <p>Discord Launch<br/>
-                                Twitter Launch<br/>
-                                Creation of Peripheral Assets<br/>
-                                Securing Partners<br/>
-                                White Paper Reveal<br/>
-                                Art Reveal<br/>
-                                Giveaways and Promotions<br/>
-                                Whitelisting Process
+                                <p>Discord Launch<br />
+                                    Twitter Launch<br />
+                                    Creation of Peripheral Assets<br />
+                                    Securing Partners<br />
+                                    White Paper Reveal<br />
+                                    Art Reveal<br />
+                                    Giveaways and Promotions<br />
+                                    Whitelisting Process
 
                                 </p>
                             </div>
@@ -42,10 +41,10 @@ const Timeline = () => {
                             <div className="marker"></div>
                             <div className="timeline-content">
                                 <h3>March 2022</h3>
-                                <p>Lore Drop<br/>
-                                Whitelist Genesis Auction<br/>
-                                Genesis Gacha Drop<br/>
-                                Cycle 1 of Merging Start
+                                <p>Lore Drop<br />
+                                    Whitelist Genesis Auction<br />
+                                    Genesis Gacha Drop<br />
+                                    Cycle 1 of Merging Start
 
                                 </p>
                             </div>
@@ -55,9 +54,9 @@ const Timeline = () => {
                             <div className="timeline-content">
                                 <h3>April 2022</h3>
                                 <p>
-                                    Big Asset Giveaway<br/>
-                                    Community Auction<br/>
-                                    Charity Drive Launch<br/>
+                                    Big Asset Giveaway<br />
+                                    Community Auction<br />
+                                    Charity Drive Launch<br />
                                     2 Cycle Pause on Merging
                                 </p>
                             </div>
